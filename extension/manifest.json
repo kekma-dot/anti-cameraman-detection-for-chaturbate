@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Anti Operator Detection for Chaturbate",
+  "version": "0.1.0",
+  "description": "Blocks typing-notification POSTs sent by the messaging composer.",
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "typing-block",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

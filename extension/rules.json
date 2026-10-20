@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "regexFilter": "^https://chaturbate\\.com/api/messaging/typing/(?:\\?[^#]*)?$",
+      "isUrlFilterCaseSensitive": true,
+      "requestMethods": ["post"],
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

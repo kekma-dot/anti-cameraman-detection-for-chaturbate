@@ -1,0 +1,7 @@
+artifacts/
+extension/_metadata/
+.pi/
+.DS_Store
+node_modules/
+.env
+.env.*
