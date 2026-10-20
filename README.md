@@ -12,10 +12,11 @@
 
 ## Установка
 
-1. Скачай [ZIP с кодом](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/archive/refs/heads/main.zip) и распакуй.
+1. Скачай **[готовый ZIP расширения из Releases](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/releases/latest/download/anti-operator-detection-for-chaturbate.zip)** и распакуй.
 2. В том профиле Chrome, где открыт аккаунт модели, зайди на `chrome://extensions/`.
-3. Включи «Режим разработчика» и нажми «Загрузить распакованное расширение».
-4. В окне выбора папки открой `anti-operator-detection-for-chaturbate-main`, затем **ещё раз открой вложенную папку с тем же именем**, если она есть. Выбери именно папку **`extension`** — внутри неё должны быть `manifest.json` и `rules.json`. Не выбирай корень проекта, ZIP или папку загрузки целиком.
+3. Включи «Режим разработчика» → «Загрузить распакованное» и выбери распакованную папку. В ней сразу должны лежать `manifest.json` и `rules.json`.
+
+Не скачивай исходный ZIP через Code → Download ZIP: он содержит проект целиком, а не готовую папку расширения.
 
 Отдельной кнопки у расширения нет. Пока оно включено в Chrome, правило активно. Чтобы вернуть индикатор, выключи расширение на той же странице.
 

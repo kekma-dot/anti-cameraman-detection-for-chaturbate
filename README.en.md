@@ -12,10 +12,11 @@ A Chrome extension that blocks outgoing typing notifications in Chaturbate priva
 
 ## Install
 
-1. Download the [source ZIP](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/archive/refs/heads/main.zip) and extract it.
+1. Download the **[ready-to-install extension ZIP from Releases](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/releases/latest/download/anti-operator-detection-for-chaturbate.zip)** and extract it.
 2. Open `chrome://extensions/` in the Chrome profile used for the model account.
-3. Enable Developer mode and click Load unpacked.
-4. In the folder picker, open `anti-operator-detection-for-chaturbate-main`, then open the nested folder with the same name if present. Select **`extension`**—it must contain `manifest.json` and `rules.json`. Do not select the project root, ZIP, or the downloads folder itself.
+3. Enable Developer mode → Load unpacked, then select the extracted folder. It should contain `manifest.json` and `rules.json` directly.
+
+Don't use Code → Download ZIP: that source archive contains the whole project, not the ready-to-load extension folder.
 
 There's no separate extension button. The rule stays active while the extension is enabled in Chrome. Disable it on the same page to restore typing notifications.
 
