@@ -10,8 +10,6 @@ You're working the chat. Three little dots have already snitched.
 
 A Chrome extension that blocks outgoing typing notifications in Chaturbate private messages.
 
-The name is ambitious; the feature is specific: suppress the typing indicator. This extension doesn't hide who's at the keyboard or guarantee that an operator can't be identified in other ways.
-
 ## Install
 
 1. Download the [source ZIP](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/archive/refs/heads/main.zip) and extract it.
