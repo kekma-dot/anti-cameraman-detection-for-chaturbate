@@ -1,0 +1,27 @@
+name: Extension release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate extension
+        run: |
+          test -f extension/manifest.json
+          test -f extension/rules.json
+          node -e "const m=JSON.parse(require('fs').readFileSync('extension/manifest.json')); if(m.manifest_version!==3) process.exit(1)"
+          node tests/check.mjs
+      - name: Package extension folder
+        run: cd extension && zip -r ../anti-operator-detection-for-chaturbate.zip .
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${GITHUB_REF_NAME}" anti-operator-detection-for-chaturbate.zip --repo "${GITHUB_REPOSITORY}" --title "${GITHUB_REF_NAME}" --generate-notes
