@@ -44,7 +44,9 @@ Use two accounts to check it: type on one and watch for the indicator on the oth
 
 ## Checks
 
-Prototype `0.1.0`: 18 cases passed in Node and Chromium 153's native rule engine. Tests cover permissions, exact URL matching, and exclusions for message sending and other requests. A full two-account A/B test with delivery verification hasn't been recorded in the project results yet.
+Prototype `0.1.0`: 18 cases passed in Node and Chromium 153's native rule engine. Tests cover permissions, exact URL matching, and exclusions for message sending and other requests.
+
+Manual checks also passed: the project owner confirmed that the extension works as expected.
 
 Run the dependency-free check:
 
