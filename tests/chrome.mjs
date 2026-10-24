@@ -27,7 +27,7 @@ const context = await chromium.launchPersistentContext(join(scratch, 'profile'),
 try {
   const worker = context.serviceWorkers()[0] ?? await context.waitForEvent('serviceworker');
   const installed = await worker.evaluate(() => chrome.management.getAll());
-  const target = installed.find(item => item.name === 'Anti Operator Detection for Chaturbate');
+  const target = installed.find(item => item.name === 'Anti Cameraman Detection for Chaturbate');
   assert.ok(target?.enabled, 'Production extension loaded and enabled');
   const page = await context.newPage();
   await page.goto(`chrome-extension://${target.id}/rules.json`);

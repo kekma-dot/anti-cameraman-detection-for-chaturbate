@@ -19,8 +19,8 @@ jobs:
           node -e "const m=JSON.parse(require('fs').readFileSync('extension/manifest.json')); if(m.manifest_version!==3) process.exit(1)"
           node tests/check.mjs
       - name: Package extension folder
-        run: cd extension && zip -r ../anti-operator-detection-for-chaturbate.zip .
+        run: cd extension && zip -r ../anti-cameraman-detection-for-chaturbate.zip .
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "${GITHUB_REF_NAME}" anti-operator-detection-for-chaturbate.zip --repo "${GITHUB_REPOSITORY}" --title "${GITHUB_REF_NAME}" --generate-notes
+        run: gh release create "${GITHUB_REF_NAME}" anti-cameraman-detection-for-chaturbate.zip --repo "${GITHUB_REPOSITORY}" --title "${GITHUB_REF_NAME}" --generate-notes

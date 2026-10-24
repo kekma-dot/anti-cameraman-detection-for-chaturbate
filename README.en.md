@@ -1,8 +1,8 @@
-# Anti Operator Detection for Chaturbate
+# Anti Cameraman Detection for Chaturbate
 
 [Русский](README.md) · **English**
 
-![A cartoon chat operator taking a mallet to the Chaturbate logo](assets/operator-vs-typing.png)
+![A cartoon cameraman taking a mallet to the Chaturbate logo](assets/cameraman-vs-typing.png)
 
 You're working the chat. Three little dots have already snitched.
 
@@ -12,7 +12,7 @@ A Chrome extension that blocks outgoing typing notifications in Chaturbate priva
 
 ## Install
 
-1. Download the **[ready-to-install extension ZIP from Releases](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/releases/latest/download/anti-operator-detection-for-chaturbate.zip)** and extract it.
+1. Download the **[ready-to-install extension ZIP from Releases](https://github.com/kekma-dot/anti-cameraman-detection-for-chaturbate/releases/latest/download/anti-cameraman-detection-for-chaturbate.zip)** and extract it.
 2. Open `chrome://extensions/` in the Chrome profile used for the model account.
 3. Enable Developer mode → Load unpacked, then select the extracted folder. It should contain `manifest.json` and `rules.json` directly.
 

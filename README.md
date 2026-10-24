@@ -1,8 +1,8 @@
-# Anti Operator Detection for Chaturbate
+# Anti Cameraman Detection for Chaturbate
 
 **Русский** · [English](README.en.md)
 
-![Карикатурный оператор с молотком разбирается с логотипом Chaturbate](assets/operator-vs-typing.png)
+![Карикатурный оператор с молотком разбирается с логотипом Chaturbate](assets/cameraman-vs-typing.png)
 
 Когда работаешь в чате, а три точки уже сдали всю контору.
 
@@ -12,7 +12,7 @@
 
 ## Установка
 
-1. Скачай **[готовый ZIP расширения из Releases](https://github.com/kekma-dot/anti-operator-detection-for-chaturbate/releases/latest/download/anti-operator-detection-for-chaturbate.zip)** и распакуй.
+1. Скачай **[готовый ZIP расширения из Releases](https://github.com/kekma-dot/anti-cameraman-detection-for-chaturbate/releases/latest/download/anti-cameraman-detection-for-chaturbate.zip)** и распакуй.
 2. В том профиле Chrome, где открыт аккаунт модели, зайди на `chrome://extensions/`.
 3. Включи «Режим разработчика» → «Загрузить распакованное» и выбери распакованную папку. В ней сразу должны лежать `manifest.json` и `rules.json`.
 

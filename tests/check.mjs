@@ -6,7 +6,7 @@ const manifest = JSON.parse(await readFile(new URL('manifest.json', root)));
 assert.equal(manifest.manifest_version, 3);
 assert.deepEqual(manifest.permissions, ['declarativeNetRequest']);
 assert.deepEqual(Object.keys(manifest).sort(), [
-  'manifest_version', 'name', 'version', 'description', 'permissions', 'declarative_net_request',
+  'manifest_version', 'name', 'version', 'description', 'permissions', 'declarative_net_request', 'icons',
 ].sort());
 assert.deepEqual(manifest.declarative_net_request.rule_resources, [
   { id: 'typing-block', enabled: true, path: 'rules.json' },
